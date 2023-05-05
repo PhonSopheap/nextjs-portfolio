@@ -1,15 +1,13 @@
 const projects = [
     {
-      title: 'HealthChain',
-      decs:'Build with private Blockchian teachnology for storing patient data.',
-      image: '/static/images/projects/healthchain.png',
+      title: 'KHosting',
+      decs:'K-Hosting is the web service that has been implemented by using the concept of DevOps. This website provides users delivery of their applications on the internet very easy and fast.',
+      image: '/static/images/projects/khosting.png',
     },    {
-      title: 'StoryMe',
-      decs:'Reader community which author can create story user can reading all the time just one click',
-      image: '/static/images/projects/storyme.png',
+      title: 'KSHRD Media',
+      decs:'KSHRD Media is a social media platform that used to post announcements for schools.',
+      image: '/static/images/projects/khsrdmedia.jpg',
     }
-
-    
 ]
 
 export default projects

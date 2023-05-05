@@ -1,30 +1,30 @@
 const skills = [
     {
-      name: 'Etherum',
-      image: '/static/images/skills/etherumlogo.png',
+      name: 'AWS',
+      image: '/static/images/skills/aws.png',
     },
     {
-      name: 'Hyperledger Fabric',
-      image: '/static/images/skills/hyperledger.png',
+      name: 'Jenkin',
+      image: '/static/images/skills/jenkins.png',
     },
     {
-      name: 'Solidity',
-      image: '/static/images/skills/soliditylogo.png',
+      name: 'Kubernetes',
+      image: '/static/images/skills/kubernetes.svg',
     },
     {
-      name: 'Go',
-      image: '/static/images/skills/go.png',
+      name: 'Ansible',
+      image: '/static/images/skills/ansibles.png',
     },{
       name: 'Spring Boot',
       image: '/static/images/skills/springlogo.png',
     }
     ,{
-      name: 'Node Js',
-      image: '/static/images/skills/node.png',
+      name: 'Nginx',
+      image: '/static/images/skills/nginx.svg',
     }
     ,{
-      name: 'Next Js',
-      image: '/static/images/skills/nextjs.png',
+      name: 'Azure Cloud',
+      image: '/static/images/skills/azure.png',
     }
     ,{
       name: 'React',
@@ -47,8 +47,8 @@ const skills = [
       image: '/static/images/skills/tailwindlogo.png',
     }
     ,{
-      name: 'Couch DB',
-      image: '/static/images/skills/couchdb.png',
+      name: 'Terraform',
+      image: '/static/images/skills/terraform.png',
     }
     ,{
       name: 'Mongo DB',
@@ -69,6 +69,14 @@ const skills = [
     ,{
       name: 'Linux',
       image: '/static/images/skills/linux.png',
+    },
+    ,{
+      name: 'GitHub Action',
+      image: '/static/images/skills/github_action.png',
+    },
+    ,{
+      name: 'Azure Pipeline',
+      image: '/static/images/skills/azure_pipeline.png',
     },
 
 

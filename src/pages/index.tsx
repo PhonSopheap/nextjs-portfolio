@@ -1,20 +1,19 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import Navbar from '../../components/Navbar'
-import Main from '../../components/Main'
+
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+function Home() {
   return (
     <div>
       <Head>
         <title>
-          Krisna portfolio
+          Sopheap Portfolio
         </title>
-        <meta name='descriptoin' content='Blockchain enginer in cambodia'/>
+        <meta name='descriptoin' content='DevOps enginer in cambodia'/>
+        <link rel="icon shortcut" href="https://cdn-icons-png.flaticon.com/512/5136/5136950.png" type="image/x-icon"/>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-        <link ref="icon" href='../../logo.png'></link>
+        
         
       </Head>
       {/* <Navbar/> */}
@@ -134,3 +133,5 @@ export default function Home() {
     // </main>
   )
 }
+
+export default Home;

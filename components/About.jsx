@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/1myprofile.png';7  
+// import AboutImg from '../public/1myprofile.png'; 
+import AboutImg from '../public/sopehap.jpg'; 
 
 const About = () => {
   return (
@@ -11,10 +12,10 @@ const About = () => {
           {/* <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p> */}
-          <h2 className='font-medium xl:text-3xl lg:py-2 lg:text-2xl md:text-2xl md:py-1 sm:py-0 py-0'>Who I Am</h2>
+          <h2 className='font-medium xl:text-3xl lg:py-2 lg:text-2xl md:text-2xl md:py-1 sm:py-0 py-0'>Who I Am?</h2>
           {/* <p className='py-2 text-gray-600  xl:text-xl xl:text-orange-400 md:text-sm sm:text-blue-400 lg:text-lg  lg:text-red-300 md:text-blue-800 md:text-lg sm:text-md sm:text-pink-500'> */}
-          <p className='py-2 text-gray-600  xl:text-xl md:text-sm  lg:text-lg    md:text-lg sm:text-md '>
-            Since I was a scholarship student at Korean Software HRD center. When I study fullstack development course I am a backend developer focus on srping boot, and UI I am doing it with React and I know UX/UI , and for advance course I am study Blockchain development course which is focus on Private blockchain call Hyperledger fabrice. Role in project I am chaincode/smartcontract developer, support infra setup and write API gateway connet to Blochain API.
+          <p className='py-2 text-gray-600  xl:text-xl md:text-sm  lg:text-lg sm:text-md '>
+          I am a 4rd year student, 1st semester of SETEC Institute and a 10th generation student of Korea Software HD Center. Now I'm a DevOps Engineer working at Digital Government Committee.
             {/* I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
             passionate about learning new technologies and understand there is
@@ -24,8 +25,8 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job. */}
           </p>
-          <p className='py-2py-2 text-gray-600  xl:text-xl md:text-sm  lg:text-lg    md:text-lg sm:text-md'>
-          Became a developer I think that. Best developer not just know many language but a good developer can sloved many problem and every language, Algorithum is more important than coding.
+          <p className='py-2py-2 text-gray-600  xl:text-xl lg:text-lg    md:text-lg sm:text-md'>
+          Automation is the most powerful tool as a developers.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

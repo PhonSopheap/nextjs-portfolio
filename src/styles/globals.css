@@ -10,10 +10,28 @@
   @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
 /*/
 
-  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap');
 
 
+@font-face {
+  font-family: "kantumruy-bold";
+  src: url("../../public/assets/fonts/Kantumruy-Bold.ttf");
+}
 
+@font-face {
+  font-family: "kantumruy-light";
+  src: url("../../public/assets/fonts/Kantumruy-Light.ttf");
+}
+
+@font-face {
+  font-family: "kantumruy";
+  src: url("../../public/assets/fonts/Kantumruy.ttf");
+}
+
+@font-face {
+  font-family: "kantumruy-regular";
+  src: url("../../public/assets/fonts/Kantumruy-Regular.ttf");
+}
 
 
 html {

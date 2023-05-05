@@ -1,13 +1,13 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import Script from 'next/script'
-import Navbar from './Navbar';
+import Link from "next/link";
+import React from "react";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Script from "next/script";
 const Main = () => {
-  return (<>
-  <Script  id="show-banner" strategy='lazyOnload'>
+  return (
+    <>
+      <Script id="show-banner" strategy="lazyOnload">
         {`
 var pJS = function(tag_id, params){
     var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
@@ -1660,61 +1660,58 @@ particlesJS("particles-js", {
   function callback() {
   }
   requestAnimationFrame(callback);
-`
-}
-
-    </Script>
-    {/* xl:bg-blue-300  bg-blue-200 */}
-    <div id="particles-js" className='w-full h-screen text-centerrelative h-full w-full bg-blue-200'>
-      {/* <Navbar/> */}
-    {/* max-w-[1240px] w-full h-full  */}
-      <div className=' mx-auto p-2 flex justify-center items-center absolute justify-items-center main-text '>
-        <div className='text-center'>
-          <p className='uppercase text-sm tracking-widest text-gray-600'>
-            {/* LET&#39;S BUILD SOMETHING TOGETHER */}
-          </p>
-          <h1 className='py-4 text-gray-700 xl:text-sm:text-[30px] text-3xl xl:text-6xl xl:py-3 lg:text-5xl lg:py-20 lg:text-red-600 text-lg py-0'>
-            Hi, I&#39;m <span className='text-[#5651e5]'> Krisna</span>
-          </h1>
-          <h1 className='py-1 text-gray-700 sm:text-[18px] xl:text-6xl xl:py-3  lg:text-5xl lg:py-2 text-lg'>A Blockchain Developer</h1>
-          <p className='py-2 text-gray-600 sm:max-w-[70%] m-auto sm:text-[16px] py-0'>
-            I’m focused on Data encryption, Blockchain API gateway 
-          </p>
-          <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaLinkedinIn />
-              </div>
-            </a>
-            <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <FaGithub />
-              </div>
-            </a>
-            <Link href='/#contact'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <AiOutlineMail />
-              </div>
-            </Link>
-            <Link href='/resume'>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
-              </div>
-            </Link>
+        `}
+      </Script>
+      {/* xl:bg-blue-300  bg-blue-200 */}
+      <div
+        id="particles-js"
+        className="w-full h-screen text-centerrelative bg-blue-300"
+      >
+        <div className="mx-auto p-2 flex justify-center items-center absolute justify-items-center main-text">
+          <div className="text-center">
+            <h1 className="pt-10 xl:pt-0 md:pt-0 text-gray-700 xl:text-sm:text-[30px] xl:text-6xl xl:py-3 lg:text-5xl lg:py-20 lg:text-red-600 text-lg py-0">
+              Hi, I&#39;m <span className="text-[#5651e5]"> Sopheap</span>
+            </h1>
+            <h1 className="py-1 text-gray-700 sm:text-[18px] xl:text-6xl xl:py-3  lg:text-5xl lg:py-2 text-lg">
+              A DevOps Enginere.
+            </h1>
+            <p className="text-gray-600 sm:max-w-[70%] m-auto sm:text-[16px] py-0">
+              I&#39;m focused on Cloud Computing, Infrastructure as Code and
+              CI/CD pipeline.
+            </p>
+            <div className="flex items-center justify-between max-w-[330px] m-auto pt-3 xl:pt-3 md:pt-3 sm:pt-20">
+              <a
+                href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <FaLinkedinIn />
+                </div>
+              </a>
+              <a
+                href="https://github.com/fireclint"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <FaGithub />
+                </div>
+              </a>
+              <Link href="/#contact">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <AiOutlineMail />
+                </div>
+              </Link>
+              <Link href="/resume">
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <BsFillPersonLinesFill />
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
-    {/* </div> */}
-    </div>
-  
     </>
   );
 };
