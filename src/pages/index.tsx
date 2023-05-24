@@ -11,7 +11,7 @@ function Home() {
           Sopheap Portfolio
         </title>
         <meta name='descriptoin' content='DevOps enginer in cambodia'/>
-        <link rel="icon shortcut" href="https://cdn-icons-png.flaticon.com/512/5136/5136950.png" type="image/x-icon"/>
+        <link rel="icon shortcut" href="https://img.icons8.com/?size=512&id=TKKuWmi2jzFO&format=png" type="image/x-icon"/>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet"/>
         
         

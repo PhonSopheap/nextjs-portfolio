@@ -1681,7 +1681,7 @@ particlesJS("particles-js", {
             </p>
             <div className="flex items-center justify-between max-w-[330px] m-auto pt-3 xl:pt-3 md:pt-3 sm:pt-20">
               <a
-                href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -1690,7 +1690,7 @@ particlesJS("particles-js", {
                 </div>
               </a>
               <a
-                href="https://github.com/fireclint"
+                href="https://github.com/PhonSopheap"
                 target="_blank"
                 rel="noreferrer"
               >

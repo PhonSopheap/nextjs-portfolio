@@ -1,7 +1,7 @@
 const projects = [
     {
       title: 'KHosting',
-      decs:'K-Hosting is the web service that has been implemented by using the concept of DevOps. This website provides users delivery of their applications on the internet very easy and fast.',
+      decs:'K-Hosting is a website provides users delivery of their applications on the internet very easy and fast.',
       image: '/static/images/projects/khosting.png',
     },    {
       title: 'KSHRD Media',

@@ -155,7 +155,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/phon-sopheap'
+                  href='https://github.com/PhonSopheap'
                   target='_blank'
                   rel='noreferrer'
                 >

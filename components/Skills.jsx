@@ -17,7 +17,7 @@ const Skills = () => {
         {/* <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
         </p> */}
-        <h2 className='w-100 text-center py-4'>Skill</h2>
+        <h2 className='w-100 text-center py-4'>Skills</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           {
             skills.map((item,i)=>(
